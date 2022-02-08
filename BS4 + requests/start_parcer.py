@@ -1,8 +1,8 @@
 import requests
 
-from learn2parse_multipage import get_next_page  # парсит все страницы с сайта
-from learn2parse import get_books  # парсит все книги со страниц
-
+from pages_parser import get_next_page  # парсит все страницы с сайта
+from books_from_pages_parser import get_books  # парсит все книги со страниц
+# модуль по запуску функций
 # Пишем логику запуска функций
 
 result_data = []

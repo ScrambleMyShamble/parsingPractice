@@ -1,5 +1,5 @@
 from bs4 import BeautifulSoup as bs
-
+# Модуаль по сбору книг со страницы
 
 def get_books(pages):
     # Скармливаем html-код супу

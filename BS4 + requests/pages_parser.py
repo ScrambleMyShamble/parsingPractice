@@ -1,7 +1,5 @@
-import requests
 from bs4 import BeautifulSoup as bs
-from learn2parse import get_books
-
+# модуль по сбору страниц
 
 def get_next_page(content):
     soup = bs(content, 'html.parser')
