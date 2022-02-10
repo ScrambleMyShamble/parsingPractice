@@ -1,4 +1,6 @@
 from bs4 import BeautifulSoup as bs
+
+
 # модуль по сбору страниц
 
 def get_next_page(content):
@@ -9,5 +11,3 @@ def get_next_page(content):
         return next_page
     except:
         pass
-
-
